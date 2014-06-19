@@ -1,0 +1,28 @@
+LEDs : LED RGB SMD diode 3535 
+	http://www.alibaba.com/product-detail/Green-light-source-LED-RGB-SMD_896254273.html
+
+Led drivers: TLC5490
+
+	mouser
+
+Micro-controller: ATmega48, ATmega32a-au ATmega88,
+	mouser
+
+Battery charger:
+
+LDO : 
+
+USB port:
+
+Battery: 
+
+RGB LEDs: 
+	ALIBAB takes forever
+
+Battery Connector: JST
+
+Battery Cover: The thing is actually a bomb
+
+EMF sensor: or nah
+
+
