@@ -1,0 +1,77 @@
+EESchema Schematic File Version 2  date Fri 20 Jun 2014 12:05:27 AM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ldo
+LIBS:bike_pov-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "20 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 8100 3500 2    60   ~ 0
+SHUD
+Text Label 8100 3400 2    60   ~ 0
+GND
+Text Label 8100 3300 2    60   ~ 0
+VIN
+Text Label 9550 3600 0    60   ~ 0
+Bypass
+Text Label 9550 3500 0    60   ~ 0
+VOUT
+Entry Wire Line
+	9450 3500 9550 3600
+Entry Wire Line
+	9450 3400 9550 3500
+Entry Wire Line
+	8100 3500 8200 3600
+Entry Wire Line
+	8100 3400 8200 3500
+Entry Wire Line
+	8100 3300 8200 3400
+$Comp
+L LDO_~TC1014-2.7VCT713 LD?
+U 1 1 53A3B213
+P 8850 3500
+F 0 "LD?" H 8800 3100 60  0000 C CNN
+F 1 "LDO_	TC1014-2.7VCT713" H 8850 3800 60  0000 C CNN
+	1    8850 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
