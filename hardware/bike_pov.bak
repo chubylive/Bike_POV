@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 19 Jun 2014 11:20:36 PM EDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,9 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:ldo
+LIBS:bike_pov-cache
+EELAYER 24 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -43,4 +45,35 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 8100 3500 2    60   ~ 0
+SHUD
+Text Label 8100 3400 2    60   ~ 0
+GND
+Text Label 8100 3300 2    60   ~ 0
+VIN
+Text Label 9550 3600 0    60   ~ 0
+Bypass
+Text Label 9550 3500 0    60   ~ 0
+VOUT
+Entry Wire Line
+	9450 3500 9550 3600
+Entry Wire Line
+	9450 3400 9550 3500
+Entry Wire Line
+	8100 3500 8200 3600
+Entry Wire Line
+	8100 3400 8200 3500
+Entry Wire Line
+	8100 3300 8200 3400
+$Comp
+L LDO_~TC1014-2.7VCT713 LD?
+U 1 1 53A3B213
+P 8850 3500
+F 0 "LD?" H 8800 3100 60  0000 C CNN
+F 1 "LDO_	TC1014-2.7VCT713" H 8850 3800 60  0000 C CNN
+F 2 "" H 8850 3500 60  0001 C CNN
+F 3 "" H 8850 3500 60  0001 C CNN
+	1    8850 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
